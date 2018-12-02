@@ -1,0 +1,253 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+img{
+    display:block;
+    width:100%;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: 'OpenSans', sans-serif;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Yanome kaffeesatz', sans-serif;
+    letter-spacing:1.5px;
+}
+/*=============
+  Header-Styles
+===============*/
+h1{
+    margin:10px 0;
+}
+
+.logo .icon-menu{
+    margin:5px;
+    color:#fff;
+}
+.icon-menu{
+    display:block;
+    width:40px;
+    height:40px;
+    font-size:30px;
+    background:#fba919;
+    text-align:center;
+    border-radius:5px;
+    line-height:45px;
+    margin:6px 0;
+    cursor:pointer;
+}
+.nav{
+    position: absolute;
+    top:60px;
+    left:-100px;
+    width:100%;
+    transition: all 0.45 ease-in-out;
+}
+.menu{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.menu a{
+    display:block;
+    color:#fff;
+    height:50px;
+    text-decoration: none;
+    padding:15px;
+}
+
+.banner{
+    margin-top:30px;
+    position:relative;
+    z-index:-1000;
+    margin-bottom: 20px;
+}
+.banner .container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    color:#fff;
+    text-align: center;
+
+}
+.banner h2{
+    margin-top:-250px;
+    color:#000;
+    font-size:450%;
+}
+.banner p{
+    color:#000;
+    font-size:260%;
+}
+/*===============
+   Info-Area
+================*/
+#info{
+    margin-top:-20px;
+    padding:100px 0 100px;
+    background-color:#333;
+    color:#f2f2f2;
+    text-align: center;
+}
+#info #name{
+    color:#000;
+}
+/*=============
+   Blog
+==============*/
+#blog{
+   padding:100px 0 100px;
+   text-align: center;
+}
+#blog .main-heading{
+    margin-bottom:85px;
+}
+#blog h4{
+    padding:25px;
+}
+
+/*=============
+   Info1-area
+==============*/
+#info1{
+    padding:100px 0 100px;
+    background:#333;
+    color:#fff;
+    text-align:center;
+
+}
+.info-pet img{
+    border-radius:50%;
+    border:5px solid #fff;
+
+}
+/*=================
+   Clock-Area
+==================*/
+#tellTime{
+    padding:100px 0 100px;
+    background-image:url('/assets/images/bg-image.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#tellTime .box{
+    color:#f2f2f2;
+}
+#tellTime .box h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.widget{
+    width:80%;
+    margin:2em;
+}
+.widget p{
+    display:inline-block;
+    line-height: 1em;
+}
+.time{
+    font-family:Oswald,Arial;
+    text-align:center;
+    font-size:1.5em;
+    margin-bottom:0.3125rem;
+    background:rgba(0,0,0,0.5);
+    padding:20px;
+    width:100%;
+}
+.clock{
+    font-family:Oswald,Arial;
+    width:100%;
+    padding:20px;
+    font-size:4em;
+    text-align: center;
+    background-color:rgba(0,0,0,0.5); 
+}
+.clock .seconds-box{
+    display:inline-block;
+}
+.clock .seconds,
+.clock .ampm{
+    font-size:2rem;
+    display:block;
+}
+
+
+
+#cta{
+    background:#000;
+    text-align: center;
+    padding:100px 100px 100px;
+}
+#cta .container h2{
+    color:#fff;
+    text-transform: uppercase;
+}
+#cta .container a:hover{
+    background: #fba919;
+}
+/*============
+   Contact-area
+==============*/
+#contact-area{
+    padding:100px 0 100px;
+    text-align: center;
+}
+#contact-area .container{
+    margin:0 auto;
+}
+
+#contact-area i{
+    padding:38px;
+    font-size:580%;
+    border-radius:50%;
+    border:1px solid #333;
+    background-color: #fba919;
+}
+
+#links{
+    background:#fba919;
+    text-align: center;
+    padding:100px 50px 100px;
+}
+#links img{
+    margin:15px;
+}
+
+/*==============
+   Footer
+================*/
+footer{
+    padding:20px;
+    background:#333;
+    color:#fff;
+}
+.copy{
+    font-size:20px;
+}
+.socials{
+    width:100%;
+    text-align:center;
+    font-size:28px;
+}
+.socials i{
+    text-align: center;
+    border-radius:50%;
+    height:50px;
+    width:50px;
+    border:1px solid #fff;
+    padding:10px;
+    color:#fff;
+}
+.socials i:hover{
+    background: #f2f2f2;
+    color:#333;
+}
